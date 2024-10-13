@@ -1,0 +1,100 @@
+/* header */
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+.header {
+    display: flex;
+}
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+}
+.parent-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav > .header-list {
+    display: flex;
+}
+.header-contact {
+    display: flex;
+    margin-left: auto;
+} 
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contact-item:not(:last-child) {
+    margin-right: 50px;
+}
+/* main */
+.advantages-list {
+    display: flex;
+    justify-content: center;
+}
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
+}
+.developments-title {
+    display: flex;
+    justify-content: center;
+}
+.developments-list {
+    display: flex;
+    justify-content: center;
+}
+.developments-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+.ourteam-title {
+    display: flex;
+    justify-content: center;
+}
+.ourteam-list {
+    display: flex;
+    justify-content: center;
+}
+.ourteam-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+/* main portfolio */
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-item:not(:last-child) {
+    margin-right: 8px;
+}
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-list-item {
+    width: 370px;
+    height: 404px;
+}
+.portfolio-list-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+.portfolio-list-item:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 30px;
+}
+.signature-title {
+    display: flex;
+    justify-content: center;
+}
+.signature-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
