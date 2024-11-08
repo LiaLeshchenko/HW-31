@@ -4,46 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,
-wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> -->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/flex.css">
+    <!-- <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flex.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
     </head>
 
   <body class="body">
     <!-- header -->
     <header class="header">
-      <div class="container header-container parent-flex">
-      <a href="./index.html" class="header-Studio"><span class="header-Web">Web</span>Studio</a>
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-item item"><a class="header-nav-link" href="./index.html">Студія</a></li>
-          <li class="header-nav-item item2"><a class="header-nav-link header-nav-portfolio current" href="./portfolio.html">Портфоліо</a></li>
-          <li class="header-nav-item item3"><a class="header-nav-link" href="#">Контакти</a></li>
+      <div class="container parent--flex">
+        <a href="./index.html" class="header__Studio"
+          ><span class="header--Web">Web</span>Studio</a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item item">
+              <a
+                class="header-nav__link header-nav__studio current"
+                href="./index.html"
+                >Студія</a
+              >
+            </li>
+            <li class="header-nav__item item2">
+              <a class="header-nav__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header-nav__item item3">
+              <a class="header-nav__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact">
+          <li class="header-contact__item contact--item">
+            <svg class="contact-icon" width="16" height="12">
+              <use href="./img/sprite.svg#icon-mail-header" />
+            </svg>
+            <a
+              class="header-contact__link header-nav__studio"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contact__item contact--item2">
+            <svg class="contact-icon" width="10" height="16">
+              <use href="./img/sprite.svg#icon-smartphone" />
+            </svg>
+            <a class="header-contact__link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="header-contact">
-        <li class="header-contact-item contact-item">
-          <svg class="contact-icon" width="16" height="12">
-            <use href="./img/sprite.svg#icon-mail-header"/>
-          </svg>
-          <a class="header-contact-link header-nav-studio" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="header-contact-item contact-item2">
-          <svg class="contact-icon" width="10" height="16">
-            <use href="./img/sprite.svg#icon-smartphone"/>
-          </svg>
-          <a class="header-contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
       </div>
     </header>
     <main>
@@ -51,7 +69,7 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
       <section class="portfolio">
         <div class="container">
         <ul class="portfolio-filter">
-          <li class="portfolio-item"><button type="submit" class="filter-button portfolio-filter-button">Усі</button></li>
+          <li class="portfolio-item"><button type="submit" class="filter-button portfolio-filter__button">Усі</button></li>
           <li class="portfolio-item"><button type="submit" class="filter-button">Веб-сайти</button></li>
           <li class="portfolio-item"><button type="submit" class="filter-button">Додатки</button></li>
           <li class="portfolio-item"><button type="submit" class="filter-button">Дизайн</button></li>
@@ -62,7 +80,7 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
         <h1 class="portfolio-title">Наши роботи</h1>
 
         <ul class="portfolio-list">
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -78,13 +96,13 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Технокряк</h2>
-              <p class="portfolio-list-text">Веб-сайт</p>
+              <h2 class="portfolio-list__title">Технокряк</h2>
+              <p class="portfolio-list__text">Веб-сайт</p>
               </div>
             </a>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -100,13 +118,13 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-list-text">Дизайн</p>
+              <h2 class="portfolio-list__title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-list__text">Дизайн</p>
               </div>
             </a>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -122,13 +140,13 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Ресторан Seafood</h2>
-              <p class="portfolio-list-text">Додаток</p>
+              <h2 class="portfolio-list__title">Ресторан Seafood</h2>
+              <p class="portfolio-list__text">Додаток</p>
               </div>
             </a>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -144,12 +162,12 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Проєкт Prime</h2>
-              <p class="portfolio-list-text">Маркетинг</p></a>
+              <h2 class="portfolio-list__title">Проєкт Prime</h2>
+              <p class="portfolio-list__text">Маркетинг</p></a>
               </div>
           </li> 
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -165,12 +183,12 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Проєкт Boxes</h2>
-              <p class="portfolio-list-text">Додаток</p></a>
+              <h2 class="portfolio-list__title">Проєкт Boxes</h2>
+              <p class="portfolio-list__text">Додаток</p></a>
               </div>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -186,12 +204,12 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Inspiration has no Borders</h2>
-              <p class="portfolio-list-text">Веб-сайт</p></a>
+              <h2 class="portfolio-list__title">Inspiration has no Borders</h2>
+              <p class="portfolio-list__text">Веб-сайт</p></a>
               </div>
             </li>  
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -207,12 +225,12 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Видання Limited Edition</h2>
-              <p class="portfolio-list-text">Дизайн</p></a>
+              <h2 class="portfolio-list__title">Видання Limited Edition</h2>
+              <p class="portfolio-list__text">Дизайн</p></a>
               </div>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -228,12 +246,12 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Проєкт LAB</h2>
-              <p class="portfolio-list-text">Маркетинг</p></a>
+              <h2 class="portfolio-list__title">Проєкт LAB</h2>
+              <p class="portfolio-list__text">Маркетинг</p></a>
               </div>
           </li>
 
-          <li class="portfolio-list-item">
+          <li class="portfolio-list__item">
             <a href="#" class="portfolio-link">
               <div class="overlay">
 
@@ -249,8 +267,8 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
                   вичерпні відомості про компанію чи приватну особу.</div>
                 </div>
                 <div class="name-holder">
-              <h2 class="portfolio-list-title">Growing Business</h2>
-              <p class="portfolio-list-text">Додаток</p></a>
+              <h2 class="portfolio-list__title">Growing Business</h2>
+              <p class="portfolio-list__text">Додаток</p></a>
               </div>
           </li>
           </ul>
@@ -259,13 +277,13 @@ wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="styleshee
     </main>
     <!-- footer -->
         <footer class="footer">
-      <div class="container footer-flex">
+      <div class="container footer--flex">
       <address>
         <a href="./index.html" class="footer-Studio"><span class="footer-Web">Web</span>Studio</a>
         <ul  class="footer-contact">
-          <li class="footer-contact-item footer-contact1"><p class="footer-contact-text">м. Київ, пр-т Лесі Українки, 26</p></li>
-          <li class="footer-contact-item footer-contact2"><a class="footer-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="footer-contact-item footer-contact2"><a class="footer-contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-contact__item footer--contact1"><p class="footer-contact__text">м. Київ, пр-т Лесі Українки, 26</p></li>
+          <li class="footer-contact__item footer--contact2"><a class="footer-contact__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="footer-contact__item footer--contact2"><a class="footer-contact__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
       <!-- join -->

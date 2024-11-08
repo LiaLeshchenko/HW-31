@@ -1,0 +1,43 @@
+/* join in */
+.join-title {
+  color: $white-color;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px;
+  padding-top: 12px; */
+}
+.join__icon {
+  fill: $white-color;
+  width: 20px;
+  height: 20px;
+}
+.join-list {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.join__item {
+  background-color: $join-bgc;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+}
+.join__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  transition: background-color $duration $cubic, border-radius $duration $cubic,
+    transform $duration $cubic;
+}
+.join__link:is(:hover, :focus) {
+  background-color: $blue-color;
+  border-radius: 50px;
+  transform: scale(1.2);
+}

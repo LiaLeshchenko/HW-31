@@ -1,0 +1,54 @@
+/* regular-customers */
+.regular-customers__container {
+  width: 1170px;
+  height: 184px;
+  margin: 0 auto;
+  margin-bottom: 103px;
+}
+.regular-customers__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.regular-customers__item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid $grey-regular-customers-color;
+  border-radius: 3px;
+
+  transition: border $duration $cubic;
+}
+.regular-customers__icon {
+  width: 106px;
+  height: 60px;
+  fill: $grey-regular-customers-color;
+
+  transition: fill $duration $cubic;
+}
+.regular-customers__title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  padding-bottom: 50px;
+}
+.regular-customers__title:is(:hover, :focus) {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2.5s; /* don't forget to set a duration! */
+}
+.regular-customers__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.regular-customers__item:is(:hover, :focus) {
+  border: 1px solid $blue-color;
+}
+.regular-customers__icon:is(:hover, :focus) {
+  fill: $blue-color;
+}

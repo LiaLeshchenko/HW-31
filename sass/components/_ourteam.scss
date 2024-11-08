@@ -1,0 +1,38 @@
+/* ourteam */
+.ourteam-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.ourteam-title:is(:hover, :focus) {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2.5s; /* don't forget to set a duration! */
+}
+.ourteam {
+  background-color: rgb(245, 244, 250);
+  width: 1600px;
+  height: 648px;
+  margin: 0 auto;
+}
+.ourteam-title {
+  margin-bottom: 50px;
+}
+.ourteam-title {
+  padding-top: 94px;
+}
+.ourteam-list__item {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.ourteam-title {
+  display: flex;
+  justify-content: center;
+}
+.ourteam-list {
+  display: flex;
+  justify-content: center;
+}
+.ourteam-list__item:not(:last-child) {
+  margin-right: 30px;
+}

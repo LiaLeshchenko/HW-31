@@ -1,0 +1,46 @@
+/* developmerts */
+.developments--title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.developments--title:is(:hover, :focus) {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2.5s; /* don't forget to set a duration! */
+}
+.developments-item__wrapp {
+  position: relative;
+}
+.developments-img__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: $white-color;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.developments {
+  margin-bottom: 94px;
+}
+.developments-title {
+  margin-bottom: 50px;
+}
+.developments-title {
+  display: flex;
+  justify-content: center;
+}
+.developments-list {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

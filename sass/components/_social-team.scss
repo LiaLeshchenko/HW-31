@@ -1,0 +1,35 @@
+/* social-team */
+.social-icon {
+  fill: $grey-regular-customers-color;
+  width: 20px;
+  height: 20px;
+
+  transition: fill $duration $cubic;
+}
+.team-social__item:is(:hover, :focus) .social-icon {
+  fill: $white-color;
+}
+.team-social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.team-social__item {
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+
+  transition: background-color $duration $cubic;
+}
+.team-social__item:is(:hover, :focus) {
+  background-color: $blue-color;
+  border-radius: 50px;
+}
+.team-social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,75 @@
+/* subscribe */
+/* .subscribe {
+  width: 574px;
+  height: 86px;
+
+  margin-left: 627px;
+  margin-top: -72px;
+} */
+.subscribe-title {
+  color: $white-color;
+
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+
+  margin-bottom: 20px;
+  text-align: left;
+  /* padding-left: 84px;
+  padding-top: 12px; */
+}
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: $dark-blue;
+
+  margin-right: 12px;
+
+  padding-left: 16px;
+}
+.subscribe-btn {
+  position: relative;
+  top: 1.5px;
+
+  width: 200px;
+  height: 50px;
+
+  border-radius: 4px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(33, 150, 243);
+
+  color: $white-color;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
+  padding-right: 67px;
+  padding-left: 28px;
+}
+.subscribe-svg {
+  position: absolute;
+  left: 1163.5px;
+  top: 48.5%;
+
+  width: 24px;
+  height: 24px;
+
+  fill: $white-color;
+  left: 148px; 
+  top: 13px;
+}
+.subscribe-form {
+  display: flex;
+  width: 570px;
+  height: 86px;
+  left: 815px;
+  top: 2748px;
+}
+.subscribe-position {
+  position: relative;
+}

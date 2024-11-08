@@ -1,7 +1,4 @@
-:root {
-    --bg-advantages-color:#F5F4FA;
-}
-.before-item::before {
+.before--item::before {
     content: " ";
     display: block;
 
@@ -13,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.before-item2::before {
+.before--item2::before {
     content: " ";
     display: block;
 
@@ -25,7 +22,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.before-item3::before {
+.before--item3::before {
     content: " ";
     display: block;
 
@@ -37,7 +34,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.before-item4::before {
+.before--item4::before {
     content: " ";
     display: block;
 
