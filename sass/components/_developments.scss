@@ -29,16 +29,18 @@
 .developments {
   margin-bottom: 94px;
 }
-.developments-title {
+.developments--title {
   margin-bottom: 50px;
 }
-.developments-title {
-  display: flex;
-  justify-content: center;
+.developments--title {
+  @extend %delepomersFlex;
+  // display: flex;
+  // justify-content: center;
 }
 .developments-list {
-  display: flex;
-  justify-content: center;
+  @extend %delepomersFlex;
+  // display: flex;
+  // justify-content: center;
 
   &__item:not(:last-child) {
     margin-right: 30px;

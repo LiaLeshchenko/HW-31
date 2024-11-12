@@ -26,12 +26,14 @@
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .ourteam-title {
-  display: flex;
-  justify-content: center;
+  @extend %delepomersFlex;
+  // display: flex;
+  // justify-content: center;
 }
 .ourteam-list {
-  display: flex;
-  justify-content: center;
+  @extend %delepomersFlex;
+  // display: flex;
+  // justify-content: center;
 }
 .ourteam-list__item:not(:last-child) {
   margin-right: 30px;
