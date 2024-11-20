@@ -1,10 +1,12 @@
 @import './utils/variables';
 @import './utils/normalize';
 @import './components/body';
+@import './utils/media';
 @import './utils/container';
 
 @import './utils/placeholders';
 @import './utils/mixins';
+
 
 @import './components/header';
 @import './components/hero';
