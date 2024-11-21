@@ -22,25 +22,23 @@
 }
 .footer-Web {
   color: $blue-color;
-  @extend %webstudioText;
-  // font-family: Raleway;
-  // font-weight: 700;
-  // font-size: 26px;
-  // line-height: 31px;
+      font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .footer-Studio {
   display: block;
   margin-bottom: 20px;
   color: $white-color;
-  @extend %webstudioText;
-  // font-family: Raleway;
-  // font-weight: 700;
-  // font-size: 26px;
-  // line-height: 31px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
-/* .footer {
+ .footer {
   padding-top: 60px;
-} */
+}
 .footer-Studio {
   margin-bottom: 20px;
 }
