@@ -13,7 +13,7 @@
 .header__Studio {
   margin-right: 93px;
 }
-.header-contact-item {
+.header-contact__item {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -41,7 +41,7 @@
     margin-right: 50px;
 }
 
-.header-contact-item:not(:last-child) {
+.header-contact__item:not(:last-child) {
     margin-right: 50px;
 }
 .header--Web {
@@ -56,12 +56,12 @@
 
   transition: color $duration $cubic;
 }
-.header-contact-link {
+.header-contact__link {
   padding: 15px 0;
   color: $grey-color;
   font-weight: 500;
 }
-.header-contact-item:is(:hover, :focus) .contact-icon {
+.header-contact__item:is(:hover, :focus) .contact-icon {
   fill: $blue-color;
 }
 .contact-icon {
@@ -83,10 +83,10 @@
   cursor: pointer;
   color: $blue-color;
 }
-.header-contact-link {
+.header-contact__link {
   transition: color $duration $cubic;
 }
-.header-contact-link:is(:hover, :focus) {
+.header-contact__link:is(:hover, :focus) {
   cursor: pointer;
   color: $blue-color;
 }
@@ -123,18 +123,18 @@
   line-height: 16px;
   color: $blue-color;
 }
-.contact-item2 {
+.contact--item2 {
   font-weight: 500;
   line-height: 16px;
   color: $grey-color;
 }
 /* 27HW */
-.header-navlink {
+.header-nav__link {
   position: relative;
   padding-top: 15px;
   padding-bottom: 32px;
 }
-.header-navlink::before {
+.header-nav__link::before {
   position: absolute;
   content: " ";
   display: block;
@@ -142,14 +142,14 @@
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: $blue-color;
+  background-color: var(--blue-color);
   transform: scaleX(0);
   transition: transform 300ms linear;
 }
-.header-navlink:hover::before {
+.header-nav__link:hover::before {
   transform: scaleX(1);
 }
-.header-navlink.current::after {
+.header-nav__link.current::after {
   position: absolute;
   content: " ";
   display: block;
@@ -157,7 +157,7 @@
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: $blue-color;
+  background-color: var(--blue-color);
 }
 /* до сюда */
 
